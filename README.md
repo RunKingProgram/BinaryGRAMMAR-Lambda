@@ -63,3 +63,17 @@ An optional for association test, a test at once or joint analysis. You can choo
 logicals. If TURE, Q-Q plot would be drawn.
 #### Manh   
 logicals. If TURE, Q-Q plot would be drawn.
+
+#### 4.Example
+
+```
+library(GRLbinary)
+library(BEDMatrix)
+library(data.table)
+pathdata<-"/Users/songyuxin/Desktop/CFWmice_binary"
+setwd(pathdata)
+plinkfilename = "maize"
+gdata <- Data(plinkfilename)
+grammar <- Grammar_binary(gdata)
+Grl_binary (grammar, Test = "Separate" , QQ = F, Manh = F)
+```

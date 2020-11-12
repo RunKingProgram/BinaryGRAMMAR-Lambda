@@ -1,7 +1,7 @@
 # GRL_binary
 # 1. Getting started
 ## 1.1	Downloading GRL_binary
-GRL_binary can be downloaded https://github.com/YuxinSong-prog/GRL_binary. It can be installed as a regular R package.
+GRL_binary can be downloaded https://github.com/RunKingProgram/GRL_binary. It can be installed as a regular R package.
 ## 1.2	Installing GRL_binary
 GRL_binary links to R packages Rcpp, RcppEigen, RcppArmadillo, BEDMatrix and data.table. These dependencies should be installed before installing GRL_binary. In addition, GRL_binary requires a recompiled PLINK2.0 Software (http://www.cog-genomics.org/plink/2.0/) with name “plinkoffset” under your working directory. Here is an example for installing GRL_binary and all its dependencies in an R session(assuming none of the R packages other than the default has been installed):
 ```

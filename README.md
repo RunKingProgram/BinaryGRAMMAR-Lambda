@@ -1,4 +1,4 @@
-# GRL_binary
+# GRL-Binary（GRL_binary）
 # 1. Getting started
 ## 1.1	Downloading GRL_binary
 GRL_binary can be downloaded https://github.com/RunKingProgram/GRL_binary. It can be installed as a regular R package.

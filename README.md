@@ -4,6 +4,7 @@
 GRL_binary can be downloaded https://github.com/RunKingProgram/BinaryGRAMMAR-Lambda. It can be installed as a regular R package.
 ## 1.2	Installing GRL_binary
 GRL_binary links to R packages Rcpp, RcppEigen, RcppArmadillo, BEDMatrix and data.table. These dependencies should be installed before installing GRL_binary. In addition, GRL_binary requires a recompiled PLINK2.0 Software (http://www.cog-genomics.org/plink/2.0/) with name “plink2ebv” under your working directory. Here is an example for installing GRL_binary and all its dependencies in an R session(assuming none of the R packages other than the default has been installed):
+
 Under MacOS:
 ```
 install.packages(c("BEDMatrix ", " data.table ", "Rcpp", " RcppEigen ", " RcppArmadillo "), repos = "https://cran.r-project.org/")

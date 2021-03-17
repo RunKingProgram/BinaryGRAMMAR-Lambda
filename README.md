@@ -1,7 +1,7 @@
 # GRL-Binary（GRL_binary）
 # 1. Getting started
 ## 1.1	Downloading GRL_binary
-GRL_binary can be downloaded https://github.com/RunKingProgram/GRL_binary. It can be installed as a regular R package.
+GRL_binary can be downloaded https://github.com/RunKingProgram/BinaryGRAMMAR-Lambda. It can be installed as a regular R package.
 ## 1.2	Installing GRL_binary
 GRL_binary links to R packages Rcpp, RcppEigen, RcppArmadillo, BEDMatrix and data.table. These dependencies should be installed before installing GRL_binary. In addition, GRL_binary requires a recompiled PLINK2.0 Software (http://www.cog-genomics.org/plink/2.0/) with name “plinkoffset” under your working directory. Here is an example for installing GRL_binary and all its dependencies in an R session(assuming none of the R packages other than the default has been installed):
 ```
@@ -9,7 +9,8 @@ install.packages(c("BEDMatrix ", " data.table ", "Rcpp", " RcppEigen ", " RcppAr
 system(“R CMD install GRLbinary_1.0.tgz”)
 ```
 # 2. Input
-GRL_binary requires the phenotype and genotype files in an PLINK BED data frame which also called PLINK 1 binary file and the structure of these files is described in http://www.cog-genomics.org/plink/1.9/formats#bed. How to prepare these data are describe below.
+Input files consist of three PLINK BED files with the same name. For example, Genotype.bed, Genotype.bim and Genotype.fam.
+
 ## 2.1 Phenotype
 Phenotype should place in the sixth column of “.fam” file.
 ## 2.2 Genotypes

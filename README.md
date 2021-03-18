@@ -7,7 +7,7 @@ GRL_binary links to R packages Rcpp, RcppEigen, RcppArmadillo, BEDMatrix and dat
 
 Under MacOS:
 ```
-install.packages(c("BEDMatrix ", " data.table ", "Rcpp", " RcppEigen ", " RcppArmadillo "), repos = "https://cran.r-project.org/")
+install.packages(c("BEDMatrix", "data.table", "Rcpp", "RcppEigen", "RcppArmadillo"))
 system(“R CMD install GRLbinary_1.0_for_MacOS.tgz”)
 ```
 # 2. Input
